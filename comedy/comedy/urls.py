@@ -21,5 +21,5 @@ from comedy.views import home, get_response
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('', home),
-    path('/get-response/', get_response),
+    path('get-response/', get_response),
 ]
