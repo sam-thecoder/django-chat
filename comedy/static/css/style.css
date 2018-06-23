@@ -8,6 +8,11 @@
 	margin-top: 10px;
 }
 
+#text-box {
+	position: absolute;
+	bottom: 8px;
+}
+
 .navbar {
 	background-color: #0006;
 }
