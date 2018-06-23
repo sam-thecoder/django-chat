@@ -2,6 +2,14 @@
 	margin-top: 10px;
 }
 
+.send-btn {
+	position: absolute;
+    top: 12px;
+    font-size: 30px;
+    color: grey;
+    right: 20px;
+}
+
 #text-box {
 	position: absolute;
 	bottom: 8px;
