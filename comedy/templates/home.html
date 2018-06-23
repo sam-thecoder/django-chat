@@ -8,7 +8,7 @@
   <div id="app" class="container top-padding">
   	<div class="row">
   		<div class="col-md-12">
-  			<div class="card col-md-6" v-for="message in messages" v-bind:class="{ user-message: message.user,  chat-message: message.chat_bot, offset-md-6: message.chat_bot}">
+  			<div class="card col-md-6" v-for="message in messages" v-bind:class="{ user-message: status,  chat-message: status, offset-md-6: status}">
 	  			<div class="card-body">
 	  				[[message.text]]
 	  			</div>

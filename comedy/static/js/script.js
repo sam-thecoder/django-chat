@@ -5,6 +5,7 @@ window.onload = function () {
 	  data: {
 	    messages: [{'text': 'Hey there', 'user': true, 'chat_bot': false}, {'text': 'brown cow', 'user': false, 'chat_bot': true}],
 	    input: '',
+	    status: true,
 	  },
 	  created: function() {
 	  	
