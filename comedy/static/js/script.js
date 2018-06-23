@@ -5,7 +5,6 @@ window.onload = function () {
 	  data: {
 	    messages: [],
 	    input: '',
-	    status: true,
 	    send_blank: false,
 	    placeholder: 'Send a message to the chatbot...',
 	  },
