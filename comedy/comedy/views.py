@@ -10,7 +10,7 @@ chatbot = ChatBot(
 )
 
 # Train based on the english corpus
-chatbot.train("chatterbot.corpus.english"):
+chatbot.train("chatterbot.corpus.english")
 
 def get_response(request):
 	response = {'status': None}
