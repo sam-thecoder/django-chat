@@ -3,7 +3,7 @@ window.onload = function () {
 	  delimiters: ['[[', ']]'],
 	  el: '#app',
 	  data: {
-	    messages: [],
+	    messages: ['Hey there', 'brown cow'],
 	  },
 	  created: function() {
 	  	
