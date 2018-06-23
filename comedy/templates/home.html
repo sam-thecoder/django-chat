@@ -8,9 +8,9 @@
   <div id="app" class="container top-padding">
   	<div class="row">
   		<div class="col-md-12">
-  			<div class="card col-md-6" v-for="message in messages">
+  			<div class="card col-md-6" v-for="message in messages" v-bind:class="{ user-message: message.user,  chat-message: message.chat_bot, offset-md-6: message.chat_bot}">
 	  			<div class="card-body">
-	  				[[message]]
+	  				[[message.text]]
 	  			</div>
 	  		</div>
   		</div>
@@ -18,7 +18,7 @@
   	</div>
   	<div id="text-box" class="row top-padding">
   		<div class="col-md-12">
-  			<textarea class="form-control" placeholder="Send a message to the chatbot..."></textarea>
+  			<textarea class="form-control" placeholder="Send a message to the chatbot..." v-model="input"></textarea>
   			<i class="fas fa-arrow-circle-right send-btn"></i>
   		</div>
   	</div>

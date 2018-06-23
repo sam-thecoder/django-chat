@@ -2,6 +2,14 @@
 	margin-top: 10px;
 }
 
+.user-message {
+	background-color: rgba(0, 67, 255, 0.33);
+}
+
+.chat-message {
+	background-color: rgba(128, 0, 95, 0.35);
+}
+
 .send-btn {
 	position: absolute;
     top: 12px;
