@@ -15,21 +15,21 @@ chatbot.train("chatterbot.corpus.english")
 def get_response(request):
 	response = {'status': None}
 
-    if request.method == 'POST':
-        data = json.loads(request.body)
-        message = data['message']
+	if request.method == 'POST':
+		data = json.loads(request.body)
+		message = data['message']
 
-        chat_response = chatbot.get_response(message).text
-        response['message'] = {'text': chat_response, user: False, chat_bot: True}
-        response['status'] = 'ok'
+		chat_response = chatbot.get_response(message).text
+		response['message'] = {'text': chat_response, user: False, chat_bot: True}
+		response['status'] = 'ok'
 
-    else:
-        response['error'] = 'no post data found'
+	else:
+		response['error'] = 'no post data found'
 
-    return HttpResponse(
-            json.dumps(response),
-            content_type="application/json"
-        )
+	return HttpResponse(
+		json.dumps(response),
+			content_type="application/json"
+		)
 
 
 def home(request, template_name="home.html"):
