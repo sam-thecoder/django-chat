@@ -16,9 +16,10 @@ Including another URLconf
 from django.contrib import admin
 from django.urls import path
 
-from comedy.views import home
+from comedy.views import home, get_response
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('', home)
+    path('', home),
+    path('/get-response/', get_response),
 ]
