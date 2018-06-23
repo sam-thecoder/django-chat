@@ -9,7 +9,7 @@
 }
 
 #text-box {
-	position: absolute;
+	position: relative;
 	bottom: 8px;
 }
 
@@ -17,14 +17,14 @@
 	background-color: #0006;
 }
 
-#jokes {
+#app {
 	margin-left: 0px;
 }
 
-#jokes .card {
+#app .card {
 	margin-bottom: 5px;
 }
 
-#jokes p {
+#app p {
 	margin-bottom: 0px;
 }
