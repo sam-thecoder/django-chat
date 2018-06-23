@@ -22,7 +22,7 @@ def get_response(request):
 		message = data['message']
 
 		chat_response = chatbot.get_response(message).text
-		response['message'] = {'text': chat_response, user: False, chat_bot: True}
+		response['message'] = {'text': chat_response, 'user': False, 'chat_bot': True}
 		response['status'] = 'ok'
 
 	else:
