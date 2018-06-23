@@ -1,0 +1,25 @@
+#side-nav {
+	position: absolute;
+	top: 63px;
+	right: 10px;
+}
+
+.top-padding {
+	margin-top: 10px;
+}
+
+.navbar {
+	background-color: #0006;
+}
+
+#jokes {
+	margin-left: 0px;
+}
+
+#jokes .card {
+	margin-bottom: 5px;
+}
+
+#jokes p {
+	margin-bottom: 0px;
+}

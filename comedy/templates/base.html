@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>{% block title %}{{ title }}{% endblock %}</title>
+
+	<meta charset="utf-8"/>
+
+	<link rel="stylesheet" type="text/css" href="/static/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="/static/css/style.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
+	{% block css %} {% endblock %}
+
+	{% block js %}{% endblock %}
+</head>
+<body>
+	<!-- Image and text -->
+	<nav class="navbar navbar-light">
+	  <a class="navbar-brand" href="#">
+	    <img src="/static/img/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+	    Bootstrap
+	  </a>
+	</nav>
+
+	{% block content %}{% endblock %}
+</body>
+</html>
