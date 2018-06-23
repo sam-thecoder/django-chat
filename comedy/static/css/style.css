@@ -18,6 +18,10 @@
     right: 20px;
 }
 
+.send-btn:hover {
+	color: rgba(0, 128, 0, 0.61);
+}
+
 #text-box {
 	position: absolute;
 	bottom: 8px;

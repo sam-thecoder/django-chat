@@ -16,8 +16,9 @@ window.onload = function () {
 				'text': this.input,
 				'user': true,
 				'chat_bot': false,
-			}
-			this.messages.push()
+			};
+			this.messages.push(message);
+			this.input = '';
 		},
 	  }
 	});
