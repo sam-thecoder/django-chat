@@ -1,16 +1,15 @@
-#side-nav {
-	position: absolute;
-	top: 63px;
-	right: 10px;
-}
-
 .top-padding {
 	margin-top: 10px;
 }
 
 #text-box {
-	position: relative;
+	position: absolute;
 	bottom: 8px;
+	width: 95%;
+}
+
+#text-box .textarea {
+	border: 2px solid;
 }
 
 .navbar {
