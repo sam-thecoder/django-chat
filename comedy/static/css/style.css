@@ -23,7 +23,7 @@
 }
 
 #text-box {
-	position: absolute;
+	position: relative;
 	bottom: 8px;
 	width: 95%;
 }
