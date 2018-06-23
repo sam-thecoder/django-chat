@@ -18,7 +18,7 @@
   	</div>
   	<div id="text-box" class="row top-padding">
   		<div class="col-md-12">
-  			<textarea class="form-control" v-bind:placeholder="placeholder" v-model="input" v-bind:class="{ 'border-danger': send_blank}></textarea>
+  			<textarea class="form-control" v-bind:placeholder="placeholder" v-model="input" v-bind:class="{ 'border-danger': send_blank}" v-on:change="check_content"></textarea>
   			<i class="fas fa-arrow-circle-right send-btn" v-on:click="add_message"></i>
   		</div>
   	</div>

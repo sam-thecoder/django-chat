@@ -25,20 +25,20 @@ window.onload = function () {
 
 				//just incase
 				this.send_blank = false;
-				this.placeholder = "Send a message to the chatbot..."
+				this.placeholder = "Send a message to the chatbot...";
 			} else {
 				this.send_blank = true;
-				this.placeholder = "Please put in some text"
+				this.placeholder = "Please put in some text";
 			}
 
 		},
 		check_content: function() {
 			if (this.input.length > 0) {
 				this.send_blank = false;
-				this.placeholder = "Send a message to the chatbot..."
+				this.placeholder = "Send a message to the chatbot...";
 			} else {
 				this.send_blank = true;
-				this.placeholder = "Please put in some text"
+				this.placeholder = "Please put in some text";
 			}
 		},
 	  }
