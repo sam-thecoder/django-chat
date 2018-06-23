@@ -1,6 +1,7 @@
 from django.shortcuts import render, render_to_response
 from django.http import HttpResponse
 import json
+from django.views.decorators.csrf import csrf_exempt
 
 from chatterbot import ChatBot
 
@@ -12,6 +13,7 @@ chatbot = ChatBot(
 # Train based on the english corpus
 chatbot.train("chatterbot.corpus.english")
 
+@csrf_exempt
 def get_response(request):
 	response = {'status': None}
 
