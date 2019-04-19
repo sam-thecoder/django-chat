@@ -2,6 +2,14 @@
 	margin-top: 10px;
 }
 
+.error-message {
+	color: red;
+}
+
+.hidden {
+	display: none;
+}
+
 .user-message {
 	background-color: rgba(0, 67, 255, 0.33);
 }
