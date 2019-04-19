@@ -2,6 +2,8 @@ import asyncio
 import websockets
 import json
 
+from chatterbot import ChatBot
+
 chatbot = ChatBot(
     'Ron Obvious',
     trainer='chatterbot.trainers.ChatterBotCorpusTrainer'
@@ -18,7 +20,7 @@ async def chat_receiver(websocket, path):
         text = message['text']
 
         chat_response = chatbot.get_response(text).text
-
+        print(chat_response)
         await websocket.send(json.dumps({'response': chat_response}))
 
 async def router(websocket, path):
