@@ -11,7 +11,9 @@ chatbot = ChatBot(
 )
 
 # Train based on the english corpus
-chatbot.train("chatterbot.corpus.english")
+
+#Already trained and it's supposed to be persistent
+#chatbot.train("chatterbot.corpus.english")
 
 @csrf_exempt
 def get_response(request):
