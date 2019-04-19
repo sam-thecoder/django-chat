@@ -2,7 +2,7 @@ $(function() {
 	function get_response() {
 		var value = $('.text').val();
 
-		if (value) {
+		if (value.length > 0) {
 			$('.no-message').addClass('hidden');
 			$('.text').val('');
 

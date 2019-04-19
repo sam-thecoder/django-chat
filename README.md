@@ -1,4 +1,4 @@
-# django-chat
+# django-chat Version 2.0
 
 ![](./images/screenshot.bmp)
 
