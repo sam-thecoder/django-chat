@@ -28,6 +28,7 @@ $(function() {
 			};
 		} else {
 			$('.no-message').removeClass('hidden');
+			$('.text').val('');
 		}
 	}
 
