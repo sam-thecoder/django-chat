@@ -2,7 +2,7 @@
 
 ![](./images/screenshot.bmp)
 
-Django Project with [ChatterBot](https://github.com/gunthercox/ChatterBot) as the chatbot. The frontend using VueJS.
+Django Project with [ChatterBot](https://github.com/gunthercox/ChatterBot) as the chatbot. The frontend using Jquery and websockets.
 
 Requirements saved in `req.txt`
 
