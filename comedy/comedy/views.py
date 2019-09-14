@@ -20,7 +20,7 @@ def get_response(request):
 	response = {'status': None}
 
 	if request.method == 'POST':
-		data = json.loads(request.body)
+		data = json.loads(request.body.decode('utf-8'))
 		message = data['message']
 
 		chat_response = chatbot.get_response(message).text
